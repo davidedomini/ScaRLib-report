@@ -11,6 +11,8 @@ nav_order: 1
 
 The aim of this project is to develop a tool that relies on state-of-the-art deep learning libraries to support the definition of CMARL systems in JVM-based environments. Moreover, ScaRLib integrates [Scafi] programming framework and [Alchemist] simulator to enable learning of field-based coordination policies for large-scale systems.
 
+![Scarlib logo](imgs/scarlib-logo.png)
+
 ----
 
 ### Main authors
