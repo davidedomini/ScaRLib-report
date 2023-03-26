@@ -11,4 +11,4 @@ Following the identification of the requirements, the analysis was expanded in o
 
 The chart will report the sub-domains of ScaRLib; the x-axis indicates how much value the sub-domain brings to the business (or how much, in other words, it offers something that differentiates it from businesses that offer similar services), while the y-axis represents how complex the sub-domain is to implement
 
-![ScaRLib Core Domain Chart](/imgs/scarlib-domain-analysis.png)
+![ScaRLib Core Domain Chart](./imgs/scarlib-domain-analysis.png)
