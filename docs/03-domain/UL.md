@@ -55,12 +55,15 @@ A sequence of [Experience](#experience)s that an [Agent](#agent) goes through fr
 A collection of [Agent](#agent)s that interact within a shared [Environment](#environment). It defines the execution flow of the [Agent](#agent)s.
 
 ### CTDE System
-A [System](#system) in which there is only one, centralized, learner and only one [Replay Buffer](#replay-buffer). The [Policy](#policy) is 
+A [System](#system) in which there is only one, centralized, [Learner](#learner) and only one [Replay Buffer](#replay-buffer). The [Policy](#policy) is 
 improved by the centralized learner and then notified to each [Agent](#agent).
 
 ### DTDE System
+A [System](#system) in which each [Agent](#agent) has its own [Learner](#learner) and [Replay Buffer](#replay-buffer). Each [Agent](#agent) is responsible
+for updating its own [Policy](#policy).
 
-
+## Learner
+An abstraction over the learning algorithm, it knows how to improve the policy given the accumulated [Experience](#experience).
 
 ## Exploration Rate
 The probability or frequency with which an [Agent](#agent) selects a random [Action](#action) rather than the optimal one according to its current [Policy](#policy). The exploration rate is used to balance the trade-off between exploration and exploitation, as it determines the degree to which the [Agent](#agent) explores the [Environment](#environment) to discover new and potentially better [Action](#action)s versus exploiting its current knowledge to maximize [Reward](#reward).
