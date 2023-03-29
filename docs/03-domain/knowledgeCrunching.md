@@ -8,3 +8,7 @@ nav_order: 1
 # Knowledge Crunching
 
 TODO
+
+<span style="color: #0077b6">**Analyst**</span>: TODO
+
+<span style="color: #79a355">**Domain expert**</span>: TODO 
