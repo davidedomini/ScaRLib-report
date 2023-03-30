@@ -5,7 +5,7 @@ has_children: false
 nav_order: 4
 ---
 
-# Versioning and Releasing
+# Versioning
 
 Software versioning refers to the process of assigning a unique identifier to a software state. The identifier is typically an alphanumeric sequence of characters separated by dots, slashes, or dashes.
 
@@ -35,3 +35,7 @@ No release
 * Commit type `chore` (*General maintenance*) with scopes different than the ones mentioned above 
 * Commit type `style` (*Style improvements*) with any scope 
 * Commit type `refactor` (*Refactoring*) with any scope 
+
+# Releasing
+
+ScaRLib is currently released on the [Maven Central](https://central.sonatype.com/?smo=true) platform, making it easy and quick to find dependencies to import ScaRLib into new projects.
