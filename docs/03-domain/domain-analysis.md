@@ -2,7 +2,7 @@
 title: Core Domain Chart
 parent: Domain Knowledge
 has_children: false
-nav_order: 3
+nav_order: 4
 ---
 
 # Core Domain Chart

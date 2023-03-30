@@ -2,7 +2,7 @@
 title: Ubiquitous Language
 parent: Domain Knowledge
 has_children: false
-nav_order: 2
+nav_order: 3
 ---
 
 # Ubiquitous Language
