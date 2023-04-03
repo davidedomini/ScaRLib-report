@@ -13,7 +13,7 @@ To track the development of our project, we used a Github repository and created
 
 Commits were written following the [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/) approach. A commit is therefore written in the following format:
 
-```
+```bash
 <type>[optional scope]: <description>
 ```
 
