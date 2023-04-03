@@ -13,4 +13,4 @@ From the previous domain analysis that was carried out, we can identify the foll
 
 - Define your own components by implementing the abstractions offered by the framework.
 - Monitor the learning progress by visualizing charts of selected metrics.
-- Use the Alchemist GUI to visualize the execution of agents, both during training and testing.
+- Use a GUI to visualize the execution of agents, both during training and testing.
