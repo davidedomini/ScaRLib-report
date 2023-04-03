@@ -29,3 +29,7 @@ The types of commits that have been adopted in our case are as follows:
 - **refactor**: for changes to the code that do not relate to either bug fixes or the addition of a new feature (e.g., moving a method from one class to another);
 - **style**: for changes that do not affect the meaning of the code (e.g., removing white spaces, formatting, etc.);
 - **test**: for the addition of new tests or correction of existing tests.
+
+## Seconday Repositories
+
+In addition to the main `ScaRLib` repository, there are some secondary repositories in the organization that are useful for speeding up the use of the tool. The `ScarLib-experiments-startup` repository is a template that can be used to initialize a new project that uses ScaRLib from scratch. On the other hand, the `ScaRLib-flock-demo` repository contains a simple example of learning using ScaRLib and can be used as a crash-guide to understanding the main mechanisms offered by the tool.
