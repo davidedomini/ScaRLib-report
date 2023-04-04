@@ -1,3 +1,10 @@
+---
+title: scarlib-core
+parent: Design
+has_children: false
+nav_order: 2
+---
+
 ## Module: scarlib-core
 The scarlib-core module implements the main functionalities and abstractions of the framework, including defining the main data structures and implementing the key algorithms. The abstractions are built around a set of concepts, with the System being the most important one. The System is a collection of agents that interact in a shared environment and are trained to optimize a global or local reward signal expressed by a reward function. The module includes two types of systems, which are CTDESystem and DTDESystem, both of which are commonly found in literature. Additionally, the module provides an implementation of the DQN algorithm for training agents.
 
