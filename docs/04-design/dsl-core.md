@@ -1,5 +1,5 @@
 ---
-title: scarlib-core
+title: dsl-core
 parent: Design
 has_children: false
 nav_order: 2
