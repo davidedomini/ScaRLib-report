@@ -6,6 +6,7 @@ nav_order: 2
 ---
 
 ## Module: scarlib-core
+### Detailed design
 The scarlib-core module implements the main functionalities and abstractions of the framework, including defining the main data structures and implementing the key algorithms. The abstractions are built around a set of concepts, with the System being the most important one. The System is a collection of agents that interact in a shared environment and are trained to optimize a global or local reward signal expressed by a reward function. The module includes two types of systems, which are CTDESystem and DTDESystem, both of which are commonly found in literature. Additionally, the module provides an implementation of the DQN algorithm for training agents.
 
 To define a custom learning process, users only need to implement four elements, including the environment, agent state space, action space, and reward function. With this module, users can easily run a learning process in a simulated environment based on the platform.
@@ -18,4 +19,9 @@ To better understand the system's dynamics, it's helpful to explain some of the 
 
 To support neural-network-based RL algorithms such as DQN, the module uses PyTorch as the de facto standard framework for building neural networks. The module relies on ScalaPy to interact directly with the Python API of PyTorch and other connected libraries. This integration involves setting up a Python environment and creating a Scala API that isolates what is necessary to access the Python ecosystem. In this case, DQN is the entry point for accessing Torch.
 
+
+### Code structure
+
 ![](https://i.imgur.com/vE6THrj.png)
+
+The code is divided in four packages (i.e. deepRL, model, neuralnetwork and util), with the deepRL package containing the main abstractions and algorithms. The model package contains the main data structures, including the Environment, Agent, and System. The neuralnetwork package contains the implementation of the neural network used by the DQN algorithm. The util package contains utility classes and functions. All of those packages are organized in a way that allows for easy extension and customization. For example, the neuralnetwork package contains a base class for neural networks, which can be extended to implement different types of neural networks. The deepRL package contains a base class for the DQN algorithm, which can be extended to implement different types of DQN algorithms. The model package contains a base class for the Environment, the Agent and the RewardFunction which can be extended to implement different variations of those abstractions.
