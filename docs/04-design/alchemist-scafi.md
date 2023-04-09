@@ -2,7 +2,7 @@
 title: alchemist-scafi
 parent: Design
 has_children: false
-nav_order: 2
+nav_order: 3
 ---
 
 ## Module: alchemist-scafi

@@ -2,7 +2,7 @@
 title: scarlib-core
 parent: Design
 has_children: false
-nav_order: 2
+nav_order: 1
 ---
 
 ## Module: scarlib-core
