@@ -17,3 +17,5 @@ To better understand the system's dynamics, it's helpful to explain some of the 
 | <img src="https://i.imgur.com/IezpICT.png" style="zoom:33%;" /> | <img src="https://i.imgur.com/bdnejKu.png" style="zoom:33%;" /> |
 
 To support neural-network-based RL algorithms such as DQN, the module uses PyTorch as the de facto standard framework for building neural networks. The module relies on ScalaPy to interact directly with the Python API of PyTorch and other connected libraries. This integration involves setting up a Python environment and creating a Scala API that isolates what is necessary to access the Python ecosystem. In this case, DQN is the entry point for accessing Torch.
+
+![](https://i.imgur.com/vE6THrj.png)

@@ -39,3 +39,6 @@ val system = learningSystem {
 	}
 }
 ```
+
+### Code structure
+![](https://i.imgur.com/4fcwMK8.png)
