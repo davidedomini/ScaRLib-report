@@ -22,13 +22,18 @@ This module offers two already implemented systems that are very common in the l
 To better understand the system's dynamics, it's helpful to explain some of the internals. Both systems use a training process that consists of multiple episodes, with each episode consisting of a predetermined number of time steps. During each episode, agents receive the current state and execute an action that causes the environment to move to the next state. At the end of an episode, the environment is reset, and agents are trained using the collected experience. In a `CTDESystem`, agents are trained in a centralized way, with a single central dataset and learner responsible for the training process and policy improvement. The `DTDESystem` works similarly, with each agent having its own dataset and learner.
 
 <table cellspacing="2" cellpadding="2" border="0">
-<tbody>
-<tr>
-<td valign="top" > <img src="./imgs/CTDE.png" alt="ctde system"> </td>
-<td valign="top" > <img src="./imgs/DTDE.png" alt="dtde system"> </td>
-</tr>
-</tbody>
+    <tbody>
+        <tr>
+            <td valign="top" > <img src="./imgs/CTDE.png" alt="ctde system"> </td>
+            <td valign="top" > <img src="./imgs/DTDE.png" alt="dtde system"> </td>
+        </tr>
+    </tbody>
 </table>
+
+The behavior of these systems is depicted in more detail in the following two sequence diagrams, the first one represents a `CTDESystem`, while the second one represents a `DTDESystem`.
+
+<img src="./imgs/SeqD-CTDE.png" alt="sd of ctde system">
+<img src="./imgs/SeqD-DTDE.png" alt="sd of dtde system">
 
 To support neural-network based Reinforcement Learning algorithms such as DQN, the module uses PyTorch as it is the de facto standard framework for building neural networks. The module relies on ScalaPy to interact directly with the Python API of PyTorch and other connected libraries. This integration involves setting up a Python environment and creating a Scala API that isolates what is necessary to access the Python ecosystem.
 
