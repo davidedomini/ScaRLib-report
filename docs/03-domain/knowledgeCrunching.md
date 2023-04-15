@@ -7,6 +7,8 @@ nav_order: 2
 
 # Knowledge Crunching
 
+## Interview
+
 After analyzing the client's request and the making the impact map, we had an interview with one of the clients, it is reported below.
 
 **Question 1**
@@ -87,7 +89,6 @@ After analyzing the client's request and the making the impact map, we had an in
         iiii) and the environment in which the agents act.
 
 
-
 **Question 8**
 
 <span style="color: #0077b6">**Analyst**</span>: 
@@ -104,6 +105,14 @@ After analyzing the client's request and the making the impact map, we had an in
 
 <span style="color: #79a355">**Domain expert**</span>:
     Feed-forward neural networks work well on a wide range of tasks, however, the framework should allow the user to define his own preferred neural network.
-
+    I think that first the tool has to support feed-forward neural networks, then in the future, as soon as possible, there should also be the integration of more complex neural networks.
 
 This is only one of the several interviews that we had with the clients, these interviews have been very important in being able to fully understand their needs.
+
+## Activity diagram
+
+Many activity diagrams were also developed during the various interviews. These diagrams gave the development team a better understanding of how the end user should interact with the framework. Below is an example of the activity diagram developed for the definition of a learning process.
+
+<div align="center">
+<img src="./imgs/activity-diagram.png" alt="Activity diagram for a learning process" width="100%">
+</div>
