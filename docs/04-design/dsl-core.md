@@ -31,12 +31,12 @@ val system = learningSystem {
 By leveraging the context functions of Scala 3, we were able to define a simple DSL for creating a system. The DSL is a simple facade to the abstractions provided by the scarlib-core module. The DSL is composed of a set of context functions that allow the user to specify the reward function, the action space, the dataset, the number of agents, and the environment. The context functions are defined as follows:
 
 ```scala
-	def learningSystem(init: Unit ?=> Unit): CTDESystem
-	def environment(init: Unit ?=> String)
-	def rewardFunction(init: Unit ?=> RewardFunction)
-	def actions(init: Unit ?=> Seq[Action])
-	def dataset(init: Unit ?=> ReplayBuffer[State, Action])
-	def agents(init: Unit ?=> Int)
+def learningSystem(init: Unit ?=> Unit): CTDESystem
+def environment(init: Unit ?=> String)
+def rewardFunction(init: Unit ?=> RewardFunction)
+def actions(init: Unit ?=> Seq[Action])
+def dataset(init: Unit ?=> ReplayBuffer[State, Action])
+def agents(init: Unit ?=> Int)
 ```
 
 ## Code structure

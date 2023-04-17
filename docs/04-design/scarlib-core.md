@@ -7,12 +7,17 @@ nav_order: 1
 
 # scarlib-core
 
+## Detailed design
+
 The `scarlib-core` module implements the main functionalities and abstractions of the framework, including defining the main data structures and implementing the key algorithms.
 The key element is the `System`, it defines the execution flow of the interactions between the agents and the entry point to start the simulation, both in learning and testing mode. 
 Another important element is the `Learner`, it abstracts from the learning algorithm offering a common interface to improve the policy. Instead, the traits: `Environment`, `Action`, `State`, `RewardFunction` are those needed to define a custom experiment, the user must implement them to define his own task.
 
 <div align="center">
-<img src="./imgs/core-arc.png" alt="ScaRLib core architecture" width="100%">
+    <figure>
+        <img src="./imgs/core-arc.png" alt="ScaRLib core architecture" width="100%">
+        <figcaption> scarlib-core architecture </figcaption>
+    </figure>
 </div>
 
 This module offers two already implemented systems that are very common in the literature, namely: 
@@ -32,8 +37,20 @@ To better understand the system's dynamics, it's helpful to explain some of the 
 
 The behavior of these systems is depicted in more detail in the following two sequence diagrams, the first one represents a `CTDESystem`, while the second one represents a `DTDESystem`.
 
-<img src="./imgs/SeqD-CTDE.png" alt="sd of ctde system">
-<img src="./imgs/SeqD-DTDE.png" alt="sd of dtde system">
+<div align="center">
+    <figure>
+        <img src="./imgs/SeqD-CTDE.png" alt="sd of ctde system">
+        <figcaption> CTDESystem sequence diagram </figcaption>
+    </figure>
+</div>
+
+<div align="center">
+    <figure>
+        <img src="./imgs/SeqD-DTDE.png" alt="sd of dtde system">
+        <figcaption> DTDESystem sequence diagram </figcaption>
+    </figure>
+</div>
+
 
 To support neural-network based Reinforcement Learning algorithms such as DQN, the module uses PyTorch as it is the de facto standard framework for building neural networks. The module relies on ScalaPy to interact directly with the Python API of PyTorch and other connected libraries. This integration involves setting up a Python environment and creating a Scala API that isolates what is necessary to access the Python ecosystem.
 
