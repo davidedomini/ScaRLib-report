@@ -15,3 +15,9 @@ The workflow has been divided into the following steps:
  1. `Test`: runs the available tests for the ScaRLib project.
  2. `Release`: if tests were successful, the semantic-release tool is executed, which will automatically create a new release of the software if needed. 
  3. `Success`: checks if all previous jobs were successful, it is used for branch protection.
+
+ <div align="center">
+    <figure>
+        <img src="./imgs/ci-resume.png" alt="CI Resume" width="100%">
+    </figure>
+</div>
