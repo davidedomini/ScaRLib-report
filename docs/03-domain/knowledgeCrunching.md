@@ -111,7 +111,7 @@ This is only one of the several interviews that we had with the clients, these i
 
 ## Activity diagram
 
-Many activity diagrams were also developed during the various interviews. These diagrams gave the development team a better understanding of how the end user should interact with the framework. Below is an example of the activity diagram developed for the definition of a learning process.
+Activity diagrams gave the development team a better understanding of how the end user should interact with the framework. Below is an example of the activity diagram developed for the definition of a learning experiment.
 
 <div align="center">
 <img src="./imgs/activity-diagram.png" alt="Activity diagram for a learning process" width="100%">
