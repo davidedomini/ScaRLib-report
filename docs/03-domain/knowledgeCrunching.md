@@ -17,7 +17,7 @@ After analyzing the client's request and the making the impact map, we had an in
     In the request you asked us to develop a tool for Cooperative Many Agent Reinforcement Learning, with the term "many" what order of magnitude do you mean ?
 
 <span style="color: #79a355">**Domain expert**</span>: 
-    I mean that the tool has to be able to handle from hundreds of agents to about one or two thousand.
+    I mean that the tool has to be able to handle from hundreds of agents to about one thousand.
 
 
 **Question 2**
@@ -26,7 +26,7 @@ After analyzing the client's request and the making the impact map, we had an in
     In the description of the ad-hoc systems you are using you mentioned that you have used the tools Alchemist and Scafi, is the integration highly needed also in the new framework?
 
 <span style="color: #79a355">**Domain expert**</span>:
-    Yes, ideally we want a generic tool that can be integrated with other tools for simulation environment (e.g., Alchemist) and aggregate programming (e.g., Scafi). The default integration has to be with Alchemist and Scafi but since it is a generic tool we must be able to replace one (or all) of these two tools with another one (e.g., Alchemist with some other simulator).
+    Yes, ideally we want a generic tool that can be integrated with other tools for simulation environment, for example Alchemist, and aggregate programming, for example Scafi. The default integration has to be with Alchemist and Scafi but since it is a generic tool we must be able to replace one (or all) of these two tools with another one, for example Alchemist with some other simulator.
 
 
 **Question 3**
@@ -55,7 +55,7 @@ After analyzing the client's request and the making the impact map, we had an in
     What do you mean with "live check"?
 
 <span style="color: #79a355">**Domain expert**</span>:
-    I mean that I would like to see the agents act and, moreover, to have some charts that resume some specified metrics (e.g., the sum of the rewards over the time).
+    I mean that I would like to see the agents act and, moreover, to have some charts that resume some specified metrics, for example the sum of the rewards over the time.
 
 
 **Question 6**
