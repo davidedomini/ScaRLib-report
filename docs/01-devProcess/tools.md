@@ -24,14 +24,14 @@ For our project, we used GitHub as a hosting service for the source code, GitHub
 <img src="imgs/github_icon.png" width="200" alt="github icon">
 </div>
 
-#### Renovate 
+### Renovate 
 [Renovate](https://docs.renovatebot.com/) is a GitHub application that automates dependency updates for software projects. It scans a project's dependencies and creates pull requests to update them to their latest versions. Renovate supports a wide range of programming languages and package managers, making it a versatile tool for maintaining software projects. It also has a range of configuration options that allow users to customize the update process to fit their specific needs.
 
 <div align="center">
 <img src="imgs/renovate.jpeg" width="200" alt="renovate icon">
 </div>
 
-#### Semantic Release
+### Semantic Release
 [Semantic Release](https://semantic-release.gitbook.io/semantic-release/) is a service that automates the package release process for software projects. It uses semantic versioning to determine the next version number and generates release notes based on commit messages. The app also updates the changelog, creates a Git tag, and publishes the new version to the package registry. This allows developers to streamline their release workflow and ensure that their software versions are consistent and correctly versioned.
 
 <div align="center">
@@ -39,7 +39,7 @@ For our project, we used GitHub as a hosting service for the source code, GitHub
 </div>
 
 
-#### Zenodo
+### Zenodo
 [Zenodo](https://zenodo.readthedocs.io/en/latest/#) is a GitHub app that enables users to archive and share research data and software code. It provides a platform for researchers to preserve their work and make it accessible to others, while also enabling them to receive credit and recognition for their contributions. With Zenodo, users can upload any type of research output, including datasets, software code, presentations, and articles, and receive a DOI (Digital Object Identifier) that can be used to cite their work in academic publications. Zenodo is free to use and integrates seamlessly with GitHub repositories.
 
 <div align="center">
