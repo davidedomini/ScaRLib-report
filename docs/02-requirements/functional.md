@@ -12,7 +12,6 @@ The functional requirements relate to the functionalities that the system must m
 
 - Specify custom components, namely: state, reward function, environment and action space.
 - Specify a custom neural network to approximate the Q-function.
-- Add new learning algorithms in an agile way.
 - Log information related to the training process.
 - Take snapshots of policies to have a history of the training process.
 - Visualize logged data in charts.

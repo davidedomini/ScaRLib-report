@@ -95,7 +95,7 @@ After analyzing the client's request and the making the impact map, we had an in
     Regarding the learning algorithm, is the implementation of the DQN algorithm enough? Is there a need to implement other algorithms?
 
 <span style="color: #79a355">**Domain expert**</span>:
-    DQN is a very generic learning algorithm and it performs well on a wide range of tasks, so it is optimal as a default algorithm for the framework. However, the framework should offer the possibility to add new algorithms in an agile way.
+    DQN is a very generic learning algorithm and it performs well on a wide range of tasks, so it is optimal as a default algorithm for the framework. However, the framework should offer the possibility to add new algorithms.
 
 
 **Question 9**
